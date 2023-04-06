@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family:'Anton', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: -100px;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #aaf5b1;
+    box-shadow: rgba(228, 9, 9, 0.12) 0px 1px 3px, rgba(216, 17, 17, 0.24) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    font-display: rgb(150, 255, 155);
+    line-height: 78px;
+    margin: 0px;
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+ 
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: rgb(17, 226, 55);
+    padding: 5px;
+    transition: all 0.5s ease;
+    
+}
+
+#submit:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 25px;
+
+}
+.contact-form-wrapper input[type="submit"]{
+    font-size: 20px;
+    padding: 20px 40px;
+    height: 75px;
+    width:100%;
+    font-family:"Open sans";
+
+}
+.image{
+    margin-top: 40px;
+
+}
+
+    
